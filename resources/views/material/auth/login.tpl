@@ -7,30 +7,30 @@
             <div class="auth-main auth-row auth-col-one">
                 <div class="auth-top auth-row">
                     <a class="boardtop-left" href="/">
-                        <div>首 页</div>
+                        <div>Go Back</div>
                     </a>
                     <div class="auth-logo">
                         <img src="/images/authlogo.jpg" alt="">
                     </div>
                     <a href="/auth/register" class="boardtop-right">
-                        <div>注 册</div>
+                        <div>Register</div>
                     </a>
                 </div>
                 <div class="auth-row">
                     <div class="form-group-label auth-row row-login">
-                        <label class="floating-label" for="email">邮箱</label>
+                        <label class="floating-label" for="email">Email</label>
                         <input class="form-control maxwidth-auth" id="email" type="text" name="Email">
                     </div>
                 </div>
                 <div class="auth-row">
                     <div class="form-group-label auth-row row-login">
-                        <label class="floating-label" for="passwd">密码</label>
+                        <label class="floating-label" for="passwd">Password</label>
                         <input class="form-control maxwidth-auth" id="passwd" type="password" name="Password">
                     </div>
                 </div>
                 <div class="auth-row">
                     <div class="form-group-label auth-row row-login">
-                        <label class="floating-label" for="code">两步验证码（未设置请忽略）</label>
+                        <label class="floating-label" for="code">2-step verification code (if not set, just ignore)</label>
                         <input class="form-control maxwidth-auth" id="code" type="text" name="Code">
                     </div>
                 </div>
@@ -50,7 +50,7 @@
 
                 <div class="btn-auth auth-row">
                     <button id="login" type="submit" class="btn btn-block btn-brand waves-attach waves-light">
-                        确认登录
+                        Confirm Login
                     </button>
                 </div>
                 <div class="auth-help auth-row">
